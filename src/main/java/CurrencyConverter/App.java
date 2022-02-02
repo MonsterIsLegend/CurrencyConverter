@@ -9,6 +9,7 @@ public class App {
      * App is running in a loop, it has several options of currencies to choose from.
      * Rest of the currencies were not added to keep the clarity of a program without a proper GUI.
      * You control the app, by inputing certain keys related to the functions.
+     * App is protected against wrong inputs
      */
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
